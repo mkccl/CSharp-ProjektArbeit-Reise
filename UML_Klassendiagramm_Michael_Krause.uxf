@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>140</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Fluggast
+--
+id: int
+name: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>390</y>
+      <w>260</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>BorderCard
+--
+BorderCardId: int
+NamePass: String
+Sitzplatz: String
+Flugnummer: String
+Gate: String
+BorderZeit: String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>30</y>
+      <w>260</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Ticket
+--
+TicketId: int
+FluggastId: int
+FluggastTicket: String
+FluggastTicketArt: String
+GepaeckId: int
+Abflughafen: String
+Zielflughafen: String
+Gepaeckidentifiationsnummer: String
+Flugnummer: String
+FlugzeugId: int
+Sitzplatz: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>380</y>
+      <w>260</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Gepäck
+--
+GepaeckId: int
+GepaeckMind: string
+GepaeckMax: string
+GepaeckPreis: int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>600</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Flugzeug
+--
+FlugzeugId: int
+FlugzeugName: String
+FlugzeugSitzplatz: String
+FlugzeugSitzplatzFrei: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>160</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..*</panel_attributes>
+    <additional_attributes>10.0;30.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>170</y>
+      <w>250</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;230.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>260</y>
+      <w>60</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;340.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>220</y>
+      <w>50</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+</diagram>

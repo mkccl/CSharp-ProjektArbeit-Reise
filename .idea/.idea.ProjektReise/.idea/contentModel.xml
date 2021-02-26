@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ccl\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ccl\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ProjektReise.-1127924005.00" t="ExcludeRecursive" />
+    <e p="E:\C#\ProjektReise" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ProjektReise" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BorderCard.cs" t="Include" />
+        <e p="BorderCard.Designer.cs" t="Include" />
+        <e p="BorderCard.resx" t="Include" />
+        <e p="CheckIn.cs" t="Include" />
+        <e p="CheckIn.Designer.cs" t="Include" />
+        <e p="CheckIn.resx" t="Include" />
+        <e p="Datenbank" t="Include">
+          <e p="Datenbank.cs" t="Include" />
+        </e>
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="Gepaeck.cs" t="Include" />
+        <e p="Gepaeck.Designer.cs" t="Include" />
+        <e p="Gepaeck.resx" t="Include" />
+        <e p="IdentifikationsnummerGen.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ProjektReise.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pil.cs" t="Include" />
+        <e p="Pil.Designer.cs" t="Include" />
+        <e p="Pil.resx" t="Include" />
+        <e p="PilAusgabe.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="ProjektReise.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ProjektReise.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
